@@ -1,0 +1,304 @@
+@media only screen and (max-width: 377px) {
+    header ul {
+        display: block;
+        position: fixed;
+        left: -100%;
+        top: 5rem;
+        flex-direction: column;
+        /* background-color: transparent; */
+        backdrop-filter: blur(10px);
+        width: 79%;
+        height: 52%;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.5s;
+        box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+        z-index: 20;
+  
+        border: 1px solid black;
+        /* background-color: red; */
+      /* \ */
+      }
+
+
+      header ul.active {
+        left: 0%;
+        /* background-color: red; */
+      }
+    
+      header ul li {
+        margin: 2.5rem 0;
+        /* background-color: blue; */
+      }
+    
+      header ul li a {
+        color: black;
+        font-weight: 400;
+      }
+    
+      .hambuger {
+        display: block;
+        cursor: pointer;
+        /* margin-left: 420px; */
+        /* background-color: red; */
+  
+      }
+    
+      .hambuger.active .bar:nth-child(2) {
+        opacity: 0;
+        
+  
+      }
+    
+      .hambuger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+      }
+    
+      .hambuger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+      }
+      header nav{
+        display: flex;
+        width: auto !important;
+      }
+    }
+  
+    
+    /* footer */
+  
+    @media only screen and (max-width:377px) {
+      #home-wrap{
+        /* background-color: blueviolet; */
+        display: flex;
+        flex-direction: row;
+        margin-top: -30px;
+        padding: 0;
+      }
+      #btn-info{
+        /* background-color: green; */
+        padding: 1rem;
+        /* margin: 0; */
+        width: 50%;
+        height: 20%;
+        margin-top: 15%;
+      }
+      .head_container .box{
+        /* background-color: brown; */
+      }
+      .home .box .text {
+        max-width: 100%;
+        /* font-size: 1.5rem; */
+      }
+      .home .box .text h1{
+        /* background-color:green ; */
+        font-size: 2.5rem;
+      }
+      
+    
+      .home .box .text::after,
+      .home .image_item {
+        display: none;
+      }
+    
+      .restaurant .container,
+      .about .container,
+      .book .container {
+        flex-direction: column;
+      }
+    
+      .grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    
+      .book {
+        /* margin-top: 10%; */
+        height: 70%;
+      }
+      .book .box{
+        background-color: #333;
+        padding: 0;
+      }
+    
+      .book .search {
+        width: 100%;
+        /* background-color: pink; */
+        height: 6vh;
+       
+      }
+    
+      .book .search input {
+        margin-top: -17px;
+        /* background-color: blueviolet; */
+      }
+    
+      .left, .right {
+        width: 100%;
+      }
+    
+      .wrapper .text {
+        width: 80%;
+      }
+    
+      .room {
+        margin-bottom: 100px;
+      }
+    
+      .room .grid {
+        grid-template-columns: repeat(1, 1fr);
+      }
+    
+      .restaurant .right {
+        padding: 0;
+        margin-top: 50px;
+      }
+    
+      footer .payment {
+        grid-template-columns: repeat(4, 1fr);
+      }
+    }
+    
+    @media only screen and (max-width:377px) {
+      .grid {
+        grid-template-columns: repeat(1, 1fr);
+      }
+    
+      .home .text {
+        margin: 10% 0 0 0;
+      }
+    
+      .home h1 {
+        font-size: 40px;
+      }
+    
+      .about p,
+      .home p {
+        margin: 50px 0 0 0;
+      }
+    
+      .wrapper .text {
+        padding: 10px;
+        height: 600px;
+      }
+    
+      .heading_top {
+        margin-top: 100px;
+      }
+    
+      .heading_top button {
+        display: none;
+      }
+    
+      .restaurant .flex {
+        flex-direction: column-reverse;
+      }
+    }
+  
+    /* gallery section */
+  
+    @media(max-width: 377px)
+    {
+      .v-stretch{
+        grid-row:span 1;
+      }
+      .h-stretch{
+        grid-column:span 1
+      }
+      .big-stretch{
+        grid-column: span 1;
+        grid-row :span 1;
+      }
+    }
+    /* room page */
+  
+    @media only screen and (max-width: 377px) {
+  .list-container{
+    /* margin-top: 150px; */
+  
+  }
+  .left-col,.right-col, .house-img, .house-info{
+    flex-basis: 100%;
+  }
+  .left-col h1{
+    font-size:22px
+  }
+  .house-info h3{
+    font-size: 18px;
+  }
+  .house-info i{
+    font-size:16px;
+  }
+  .pagination span{
+    margin: 10px 2px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+  }
+  
+  
+    }
+  
+    /* resturant page */
+    /* @media only screen and (max-width: 768px) {
+      .containerr{
+        border: 1px solid red;
+      
+      }
+      .rest img{
+        height: 50%;
+        border: 1px solid red;
+      }
+    } */
+  
+    /* room */
+    @media only screen and (max-width:377px) {
+  .head_container .image img{
+    /* border-radius: 30%; */
+  width: 100%;
+  height: 45%;
+  }
+      
+     .head_container .box .text h1{
+      font-size: 2.7rem;
+      /* background-color: palegreen; */
+      
+     }
+    
+    .list-container{
+      /* background-color: red; */
+      margin-top: -20vh;
+    }
+    
+    }
+  
+
+
+
+    @media only screen and (max-width:377px){
+        .sub-title{
+            font-size: 5vw;
+            margin: -56px 0 20px;
+           
+        }
+        
+         .exclusives{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      padding: 2.5rem;
+        }
+        .exclusives img{
+            width: 100%;
+         height: auto;
+        }
+        
+        .containerr{
+            margin-top: 22.5vh;
+        }
+        .trending img{
+            margin: 2rem;
+        }
+        .trending h3{
+            text-align: center;
+            font-size:1.3rem ;
+        }
+    }
